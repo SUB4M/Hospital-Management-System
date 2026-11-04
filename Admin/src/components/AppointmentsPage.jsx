@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { pageStyles as p,statusClasses as s,keyframesStyles as k } from '../assets/dummyStyles'
 import { Calendar, Search, BadgeIndianRupee } from 'lucide-react';
- const API_BASE = "http://localhost:4000";
+ const API_BASE = "https://hospital-management-system-1-xfnd.onrender.com";
 
  //helpers
  function formatDateISO(iso) {

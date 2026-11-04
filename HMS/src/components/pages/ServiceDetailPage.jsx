@@ -12,7 +12,7 @@ import { useAuth } from "@clerk/react";
 import toast, { Toaster } from "react-hot-toast";
 import { serviceDetailStyles,iconSize } from "../../assets/dummyStyles";
 
-const DEFAULT_HOST = "http://localhost:4000".replace(/\/$/, "");
+const DEFAULT_HOST = "https://hospital-management-system-1-xfnd.onrender.com".replace(/\/$/, "");
 
 export default function ServiceDetail() {
   const { id } = useParams();

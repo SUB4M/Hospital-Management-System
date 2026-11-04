@@ -7,7 +7,7 @@ import { IconCursorOff } from "@tabler/icons-react";
 
 
 const DoctorsPage = () => {
-     const API_BASE = "http://localhost:4000";
+     const API_BASE = "https://hospital-management-system-1-xfnd.onrender.com";
 
        const [allDoctors, setAllDoctors] = useState([]);
   const [loading, setLoading] = useState(true);

@@ -5,7 +5,7 @@ import { AlertTriangle, Calendar, CheckCircle, Clock, Image, Plus, XCircle } fro
 
 
 const AddService = ({serviceId}) => {
-    const API_BASE = "http://localhost:4000";
+    const API_BASE = "https://hospital-management-system-1-xfnd.onrender.com";
 
      const fileRef = useRef(null);
   const [imagePreview, setImagePreview] = useState(null);

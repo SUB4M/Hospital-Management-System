@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Bell, CalendarDays, Clock, XCircle } from 'lucide-react';
 import { useAuth, useUser } from '@clerk/react';
 import { Toaster } from 'react-hot-toast';
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://hospital-management-system-1-xfnd.onrender.com";
 const API = axios.create({baseURL:API_BASE})
 
 //helpers
