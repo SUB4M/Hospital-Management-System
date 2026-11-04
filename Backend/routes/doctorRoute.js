@@ -4,7 +4,7 @@ import multer from 'multer'
 import { createDoctor, deleteDoctor, doctorLogin, getDoctors, getDoctorsById, toggleAvailability, updateDoctor } from '../controllers/doctorcontroller.js';
 import doctorAuth from '../middleware/doctorAuth.js'
 
-const upload = multer({dest: '/temp'})
+const upload = multer({dest: 'temp/'})
 
 const doctorRouter = express.Router()
 
