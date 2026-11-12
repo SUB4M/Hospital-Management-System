@@ -12,7 +12,7 @@ const app = express();
 const port = 4000;
 
 const allowedOrigins=[
-    "https://hospital-management-system-frontend-rs11.onrender.com",
+    "https://hospital-management-system-frontend-gk7w.onrender.com",
     "https://hospital-management-system-admin-2dy3.onrender.com"
 ]
 
