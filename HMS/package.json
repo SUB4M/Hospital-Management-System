@@ -32,5 +32,9 @@
     "globals": "^17.6.0",
     "tailwindcss": "^4.3.4",
     "vite": "^8.0.12"
+  },
+  "optionalDependencies": {
+    "lightningcss-linux-x64-gnu": "^1.29.0",
+    "lightningcss-linux-x64-musl": "^1.29.0"
   }
 }
